@@ -16,3 +16,4 @@ pandas
 Pillow
 tensorflow
 tqdm
+pydantic
