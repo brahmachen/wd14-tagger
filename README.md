@@ -2,7 +2,15 @@ Tagger for [Automatic1111's WebUI](https://github.com/AUTOMATIC1111/stable-diffu
 ---
 Interrogate booru style tags for single or multiple image files using various models, such as DeepDanbooru.
 
-[한국어를 사용하시나요? 여기에 한국어 설명서가 있습니다!](README.ko.md)
+## Deploy
+
+```commandline
+git clone https://github.com/brahmachen/wd14-tagger.git
+cd wd14-tagger
+pip install -r requirements.tx
+uvicorn main:app --host 0.0.0.0 --port 7866 
+```
+-----------------
 
 ## Disclaimer
 I didn't make any models, and most of the code was heavily borrowed from the [DeepDanbooru](https://github.com/KichangKim/DeepDanbooru) and MrSmillingWolf's tagger.
