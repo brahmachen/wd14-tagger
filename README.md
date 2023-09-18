@@ -8,7 +8,7 @@ Interrogate booru style tags for single or multiple image files using various mo
 git clone https://github.com/brahmachen/wd14-tagger.git
 cd wd14-tagger
 pip install -r requirements.tx
-uvicorn main:app --host 0.0.0.0 --port 7866 
+pm2 start main.py --name wd14-tagger
 ```
 -----------------
 

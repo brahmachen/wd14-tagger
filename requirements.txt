@@ -17,3 +17,4 @@ Pillow
 tensorflow
 tqdm
 pydantic
+uvicorn
